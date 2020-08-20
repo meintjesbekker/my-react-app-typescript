@@ -5,7 +5,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 // mxb - Code that I've added.
-var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world!');
+var element = React.createElement('h1', { className: 'greeting' }, 'Hello world! shouts Meintjes');
 
 ReactDOM.render(
   // mxb - Code that I've removed.
