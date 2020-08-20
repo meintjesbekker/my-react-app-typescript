@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// mxb - Code that I've added.
+var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world!');
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // mxb - Code that I've removed.
+  // <React.StrictMode>
+  //  <App />
+  // </React.StrictMode>,
+  element,
   document.getElementById('root')
 );
 
